@@ -17,6 +17,7 @@ public class BrowserSelector extends Utils {
             driver = new FirefoxDriver();
         } else {
             System.out.println("no such browser name");
+            System.out.println("test");
         }
     }
 }
